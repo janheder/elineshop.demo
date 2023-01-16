@@ -2,13 +2,12 @@ header{
     background: $white;
 }
 .header-top{
-    height: 38px;
-    border-bottom: 1px solid $gray-300;
+    height: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $gray-900;
-    color: $white;
+    background: $gray-100;
+    color: $gray-900;
     font-size: 14px;
 }
 .header-top .container{
@@ -42,7 +41,7 @@ header{
 }
 .header-top__links a{
     margin: 0 0 0 20px;
-    color: $white;
+    color: $gray-900;
 }
 @media screen and (max-width: 991px){
     .header-top{
@@ -63,7 +62,7 @@ header{
 }
 .logo img{
     height: 100%;
-    width: 150px;
+    width: 190px;
 }
 #navToggle{
     height: 100%;
@@ -175,7 +174,8 @@ header{
     line-height: 1;
 }
 .header-nav .user__icon{
-    background: $gray-100;
+    background: $white;
+    border: 1px solid $gray-300;
     border-radius: 50%;
     height: 48px;
     width: 48px;
@@ -241,7 +241,8 @@ body.--user-active .header-nav .user__dropdown{
     color: $gray-900;
 }
 .header-nav .cart__icon{
-    background: $gray-100;
+    background: $white;
+    border: 1px solid $gray-300;
     border-radius: 50%;
     height: 48px;
     width: 48px;
@@ -259,7 +260,7 @@ body.--user-active .header-nav .user__dropdown{
     position: absolute;
     background: $green-500;
     color: $white;
-    border: 2px solid $gray-100;
+    border: 2px solid $white;
     font-size: 11px;
     font-weight: 500;
     border-radius: 50%;

@@ -1,5 +1,5 @@
 .points{
-
+    padding-top: 20px;
 }
 .points-single{
     display: flex;
@@ -7,11 +7,11 @@
 }
 .points-single__icon {
     content-visibility: auto;
-    contain-intrinsic-size: 90px 90px;
+    contain-intrinsic-size: 60px 60px;
 }
 .points-single__icon img{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 .points-single__content{
