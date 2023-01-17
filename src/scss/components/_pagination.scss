@@ -17,6 +17,7 @@
 .pagination__item.--active .pagination__link{
     border: 1px solid $gray-300;
     color: $gray-900;
+    border-radius: 50%;
 }
 .pagination__link{
     height: 40px;

@@ -1,5 +1,5 @@
 nav{
-    background: $white;
+    background: $gray-900;
     position: relative;
     /*border-top: 1px solid $gray-300;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
@@ -11,7 +11,7 @@ nav.disabled .nav-item{
 nav > .container{
     display: flex;
     max-width: 1300px;
-    background: $gray-900;
+    background: $gray-800;
     padding: 0;
 }
 .nav-item{
@@ -135,7 +135,7 @@ nav > .container{
 }
 @media screen and (max-width: 991px){
     nav{
-        background: $white;
+        background: $gray-900;
         position: fixed;
         top: 0;
         left: 0;
@@ -178,6 +178,9 @@ nav > .container{
         justify-content: flex-start;
         width: 100%;
         display: flex;
+        &:hover, &:active, &:focus {
+            color: $white;
+        }
     }
     .nav-linkDesktop{
         display: none;
@@ -185,7 +188,7 @@ nav > .container{
     .nav-submenu{
         position: relative;
         flex-direction: column;
-        background: $gray-100;
+        background: $gray-800;
         padding: 10px 0;
         display: none;
     }
@@ -221,6 +224,7 @@ nav > .container{
         align-items: center;
         padding: 0 20px;
         font-weight: 400;
+        color: white;
     }
     .nav-submenu__link{
         display: none;

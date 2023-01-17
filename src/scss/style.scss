@@ -32,7 +32,7 @@ body.cart #navToggle{
     display: none;
 }
 a{
-    color: $green-500;
+    color: $red-500;
     text-decoration: none;
 
     &:hover, &:active, &:focus{
@@ -52,6 +52,9 @@ h1{
 }
 small {
     font-size: 13px;
+}
+h6, h5, h4, h3, h2, h1{
+    font-weight: 600;
 }
 .container{
     max-width: 1340px;
@@ -103,7 +106,7 @@ section h1{
     }
 }
 section.products{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 section.products h1{

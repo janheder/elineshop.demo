@@ -158,6 +158,8 @@
   margin: 0 10px;
   margin-top: 40px;
   white-space: nowrap;
+  height: 52px;
+
   &:hover, &:active, &:focus{
     img {
       margin-left: 15px;
@@ -208,7 +210,7 @@
     }
     .btn{
       margin: 0;
-      margin-top: 30px;
+      margin-top: 10px;
       width: 100%;
 
     }
@@ -221,6 +223,8 @@
   .modal__cart-btns{
     margin: 0;
     flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
   }
 }
 
