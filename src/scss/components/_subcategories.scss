@@ -1,6 +1,6 @@
 .subcategories{
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 .subcategories__single{
     padding:10px 0;
@@ -42,6 +42,7 @@
     .subcategories{
         overflow-x: auto;
         padding: 0;
+        padding-bottom: 30px;
     }
     .subcategories .row{
         flex-wrap: nowrap;

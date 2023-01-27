@@ -111,6 +111,7 @@
     text-align: left;
     font-size: 14px;
     padding-left: 6px;
+    text-transform: uppercase;
 }
 .product-card__deliveryText.--unavailable{
     color: $gray-500;
@@ -140,6 +141,7 @@
 .product-card__btn{
     display: none;
     min-height: 48px;
+    background: $red-500;
 }
 
 
