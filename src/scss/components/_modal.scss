@@ -173,6 +173,11 @@
 }
 
 
+#modal-delivery .modal__container,
+#modal-delivery2 .modal__container{
+  max-width: 860px;
+}
+
 
 @media screen and (max-width: 767px){
     .modal__content {
@@ -214,7 +219,12 @@
       width: 100%;
 
     }
-
+    #modal-delivery-content{
+      padding: 20px 10px;
+    }
+    #modal-delivery-content .modal__header{
+      padding-bottom: 10px;
+    }
   }
 
   .modal__side{

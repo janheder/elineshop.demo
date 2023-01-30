@@ -176,3 +176,17 @@ section.products h1{
     touch-action: none;
     height: 80vh !important;
 }
+
+.infomessage{
+    background-color: rgba($green-500,0.1);
+    color: $green-500;
+    padding: 7px 15px;
+    padding-left: 50px;
+    background-image: url(../img/icons/info-green.svg);
+    background-size: 21px;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+}
