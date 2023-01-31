@@ -276,3 +276,11 @@ section.products h1 {
   .rating-box .rating-container label:hover, .rating-box .rating-container label:hover ~ label, .rating-box .rating-container input:checked ~ label {
     color: gold;
   }
+  @media screen and (max-width: 575px) {
+    .review-thanks,
+    .review-error {
+        max-width: 100%;
+        padding: 60px 20px 50px 20px;
+        margin: 40px auto 40px auto;
+    }
+}
