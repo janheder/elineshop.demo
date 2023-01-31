@@ -425,3 +425,25 @@
 
 
 
+.vote-grid .vote-rating{
+    display: flex;
+    justify-content: space-between;
+        width: 100%;
+    align-items:center;
+  }
+  
+  .vote-grid .vote-checked{
+    font-size: 13px;
+        color: $green-500;
+    display: flex;
+      align-items:center;
+  }
+  .vote-grid .vote-checked::before {
+      content: "";
+      background-size: 100%;
+      height: 13px;
+      width: 13px;
+      display: flex;
+      background-image: url(../img/icons/check.svg);
+      margin-right: 5px;
+  }
