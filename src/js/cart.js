@@ -44,7 +44,7 @@ if (cart.length>0){
 
             if (document.getElementById('codePrice')){
 
-                if(document.getElementById('codePrice').getAttribute("data-percentage") == undefined){
+                if(document.getElementById('codePrice').getAttribute("data-percentage") == 0){
                
                     let result_f = (result-codePriceN).toFixed(2).toString().replace(/\./g, ',');
                     document.getElementById('goodsprice').innerText = result_f;
@@ -73,7 +73,7 @@ if (cart.length>0){
             let result2 = Array.from(pricesum).reduce((sum, spanElm) => sum + Number(spanElm.textContent), 0); 
 
             if (document.getElementById('codePrice')){
-                if(document.getElementById('codePrice').getAttribute("data-percentage") === null){
+                if(document.getElementById('codePrice').getAttribute("data-percentage") == 0){
                
                     let result2_f = (result2-codePriceN).toFixed(2).toString().replace(/\./g, ',');
                     document.getElementById('sumprice').innerText = result2_f;

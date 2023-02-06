@@ -177,7 +177,12 @@
 #modal-delivery2 .modal__container{
   max-width: 860px;
 }
-
+#modal-ppl .modal__container,
+#modal-dpd .modal__container{
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 90vh;
+}
 
 @media screen and (max-width: 767px){
     .modal__content {
